@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'components/head.html' %} <body>
+    {% include 'components/nav.html' %} <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Projec-1</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/juegos/batalla_naval" id="batalla-naval-link" data-lang-en="Battleship" data-lang-es="Batalla Naval">Batalla Naval</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="triqui-link" data-lang-en="Tic Tac Toe" data-lang-es="Triqui">Triqui</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="memoria-link" data-lang-en="Memory Game" data-lang-es="Juego de Memoria">Juego de Memoria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="blackjack-link" data-lang-en="Blackjack" data-lang-es="Black Jack">Black Jack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="rummy-link" data-lang-en="Rummy" data-lang-es="Rummy">Rummy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    {% include 'components/footer.html' %} </body>
+</html>
