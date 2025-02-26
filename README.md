@@ -84,8 +84,7 @@ Este repositorio contiene el desarrollo del **Proyecto 1** de la asignatura **Pr
     ```
 
 ## 🛠 Requisitos
-- Python 3.x
-- No se requiere instalación de librerías adicionales
+- Python 3.11.x en adelante.
 
 ## 📜 Licencia
 Este proyecto está bajo la licencia MIT - Puedes usarlo libremente. 😊
