@@ -55,34 +55,37 @@ Este repositorio contiene el desarrollo del **Proyecto 1** de la asignatura **Pr
 
 ## 🚀 Cómo Ejecutar la Aplicación
 
-1. **Instalación de dependencias:**  
-   Asegúrate de tener [Python 3.x](https://www.python.org/downloads/) instalado y luego instala Flask ejecutando:
+1. **Clona este repositorio.**
+    ``` bash
+    git clone https://gitlab.com/driosoft-pro/calclogic.git
+    ```
+2. Crea y activa un entorno virtual:
    ```bash
-   pip install Flask
-   ```
-
-2. **Estructura del Proyecto:**
-   ```plaintext
-   / 
-   │── README.md           # Documentación del proyecto
-   │── app.py              # Archivo principal de la aplicación Flask
-   │── templates/          # Plantillas HTML para la interfaz web
-   │   ├── index.html      # Página principal
-   │   ├── batalla_naval.html
-   │   ├── triqui.html
-   │   ├── memoria.html
-   │   ├── sudoku.html
-   │   ├── blackjack.html
-   │   └── rummy.html
-   │── static/             # Archivos estáticos (CSS, JS, imágenes)
-   │── juegos/             # Lógica de cada juego en Python
-       ├── batalla_naval.py
-       ├── triqui.py
-       ├── memoria.py
-       ├── sudoku.py
-       ├── blackjack.py
-       └── rummy.py
-   ```
+   python -m venv venv
+   source venv/bin/activate "Linux"
+   venv\Scripts\activate  	"Windows"
+    ``` 
+* Ingresas a la carpeta clclogic y pon el siguiente comando
+    ```bash
+    python -m venv venv
+    ```
+* Para Inicaiar el entorno virtual
+* "Linux"
+    ```bash
+    source venv/bin/activate 
+    ```
+* "Windows"
+    ```bash
+    venv\Scripts\activate
+    ```
+3. crear un archivo llamdo .env con el siguente conetenido
+    ```bash
+    FLASK_ENV=development
+    ```
+4. proyecto sin necesidad de docker
+    ``` bash
+    python run.py
+    ```
 
 ## 🛠 Requisitos
 - Python 3.x
