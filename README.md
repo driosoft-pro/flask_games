@@ -57,7 +57,7 @@ Este repositorio contiene el desarrollo del **Proyecto 1** de la asignatura **Pr
 
 1. **Clona este repositorio.**
     ``` bash
-    git clone https://gitlab.com/driosoft-pro/calclogic.git
+    git clone https://github.com/driosoft-pro/flask_games.git
     ```
 2. Crea y activa un entorno virtual:
    ```bash
@@ -78,13 +78,9 @@ Este repositorio contiene el desarrollo del **Proyecto 1** de la asignatura **Pr
     ```bash
     venv\Scripts\activate
     ```
-3. crear un archivo llamdo .env con el siguente conetenido
-    ```bash
-    FLASK_ENV=development
-    ```
-4. proyecto sin necesidad de docker
+3. ejecutar el proyecto
     ``` bash
-    python run.py
+    python app.py
     ```
 
 ## 🛠 Requisitos
